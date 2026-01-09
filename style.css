@@ -1,19 +1,17 @@
 
+
+.open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.btn{
-    background-color: #30b868;
-    color: white;
-    padding: 12px 24px;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
-    font-weight:bold;
-}
+
 nav{
     width: 71%;
     max-width: 1140px;
@@ -33,4 +31,125 @@ nav .menu a{
     font-size: 20px;
     color: #000000;
     text-decoration: none;
+}
+.btn{
+    background-color: #30b868;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight:bold;
+}
+#banner .btn3
+{
+   border-radius: 4px;
+   background: none;
+   border: 2px solid white;
+   font-weight: 50;
+   cursor: pointer;
+   color: white;
+   padding:10px ;
+}
+#banner .btn2{
+   border-radius: 10px;
+   color: #30b868; 
+   padding: 3px 2px;
+   justify-content: center;
+   text-align: center;
+   background-color: white;
+   font-weight: ;
+}
+#banner{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#banner .banner-image{
+position:relative;
+width:100%;
+height:674px;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+#banner .banner-image img{
+width:100%;
+height:100%;
+object-fit:cover;
+}
+
+.banner-content{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%, -50%);
+width:100%;
+max-width:600px;
+text-align:center;
+font-style: Bold;
+font-size: 72px;
+font-weight: 700;
+line-height: 84px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+}
+
+.hero-buttons{
+display:flex;
+justify-content:center;
+gap:18px;
+margin-top:20px;
+}
+
+
+
+#banner .banner-content h1{
+    font-size: 85px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+}
+#banner .banner-content .h11{
+    font-size: 85px;
+    font-weight: bold;
+    color: #30b868;
+    margin-bottom: 20px;
+}
+
+#banner .banner-content p{
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align:center;;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+#banner .banner-image{
+    max-width: 1600px;
+    height: 674px;
+}
+
+.section-heading{
+    max-width: 827px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.section-heading h2{
+    font-size: 42px;
+    font-weight: bold;
+}
+.section-heading p{
+    font-size: 16px;
+    margin-bottom: 30px;
+    line-height:30px ;
+    color: #627362;
 }
