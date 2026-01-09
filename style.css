@@ -35,12 +35,14 @@ nav .menu a{
 .btn{
     background-color: #30b868;
     color: white;
+    font-size: 16px;
     padding: 12px 24px;
     border-radius: 5px;
     border: none;
     cursor: pointer;
     font-weight:bold;
 }
+
 #banner .btn3
 {
    border-radius: 4px;
@@ -113,6 +115,7 @@ margin-top:20px;
     font-weight: bold;
     color: white;
     margin-bottom: 20px;
+    
 }
 #banner .banner-content .h11{
     font-size: 85px;
@@ -152,4 +155,112 @@ margin-top:20px;
     margin-bottom: 30px;
     line-height:30px ;
     color: #627362;
+}
+.note-box{
+    display: flex;
+    justify-content: center;
+}
+.notes-card{
+    text-align: center;
+    margin: 0 auto;
+    gap: 24px;
+   background-color: #FFFFFF;
+
+}
+.notes-card h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+   
+}
+.notes-card p{
+    color:#627382 ;
+    font-size: 16px;
+}
+.note-box img{
+    background-color: #F95555;
+    border-radius:100%;
+    padding: 20px;
+}
+.solution{
+    display: flex;
+    padding-bottom: 50px;
+}
+.solution img{
+    max-width: 50%;
+    height: auto;
+}
+.solution p{
+    color: #30b868;
+    font-size: 16px;
+
+}
+.solution h2{
+    font-size: 48px;
+    color: #001931;
+}
+.solution .pp{
+    color: #627382;
+    font-size: 16px;
+}
+.solution-text{
+    margin: 50px;
+}
+.checkpoint{
+    margin-top: 50px;
+}
+.checkpoint .textt{
+    font-size: medium;
+    color: #000000;
+}
+#about .about-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #F7F6F2;
+    padding: 40px 80px;
+    gap: 24px;
+}
+#about .about-container .about-info{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.main-footer{
+    background-color: #001931;
+    color: white;
+    padding: 40px 0 20px 0;
+}
+.social-links{
+    text-align: right;
+
+}
+.footer-bottom{
+    text-align: center;
+
+}
+.footer-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px;
+    margin-bottom: 20px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.logo .text{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
 }
